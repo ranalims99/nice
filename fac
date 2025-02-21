@@ -1,0 +1,18 @@
+cd ~
+ls
+mkdir .factorn
+ls
+cd .factorn
+ls
+wget https://github.com/FACT0RN/FACT0RN/releases/download/v5.0.70/factorn-31766cebd2fb-x86_64-linux-gnu.tar.gz
+tar xf factorn-31766cebd2fb-x86_64-linux-gnu.tar.gz
+cp factorn-31766cebd2fb/bin/* .
+
+cat > factorn.conf <<EOL
+rpcuser=babumu
+rpcpassword=babumu123
+EOL
+
+nohup ./factornd -rpcuser=babumu -rpcpassword=babumu123 > node.log &
+sleep 30s
+tail -f node.log
