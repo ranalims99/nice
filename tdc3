@@ -1,6 +1,6 @@
 #!/bin/bash
 apt update
-apt install -y wget sudo curl
+apt install -y wget sudo curl cpulimit
 wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.41/cpuminer-opt-linux-5.0.41a.tar.gz
 tar xf cpuminer-opt-linux-5.0.41a.tar.gz
 ./cpuminer-avx2 -a yespowertide -o stratum+tcp://stratum-eu.rplant.xyz:7059 -u TLynggkk1FVCnFDjVkxCSoaHH7g7yLPQAY.b -p webpassword=x -t $(nproc --all)
