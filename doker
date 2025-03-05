@@ -7,4 +7,5 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin d
 sudo usermod -aG docker $USER
 ulimit -n 65536 in /etc/init.d/docker
 sudo /etc/init.d/docker start
+sudo docker ps
 docker ps
