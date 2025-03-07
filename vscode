@@ -13,5 +13,5 @@ code-server --port $PORT --disable-telemetry --auth none &
 PORT=10000
 
 while true; do
-  ./cloudflared tunnel --url http://127.0.0.1:$PORT --metrics localhost:45678
+  ./cloudflared tunnel --url http://127.0.0.1:$PORT --metrics localhost:45678 && sleep 1h
 done
