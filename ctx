@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.94a/lolMiner_v1.94a_Lin64.tar.gz
+tar xf lolMiner_v1.94a_Lin64.tar.gz
+cd 1.94a
+./lolMiner --coin CTXC --pool sg.cortex.gfwroute.com:1155 --user 0xaca9e27eaafd301a7945ed8645a8c4f562e89474.x
