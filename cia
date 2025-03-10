@@ -4,4 +4,4 @@ wget https://nossd.com/nossd-1.4.zip
 unzip nossd-1.4.zip
 cd nossd-1.4/linux
 mkdir /plots
-./client -a xch1r9phuxpvwlt7l9f7rpxwxmjvp3u46lsx8fneyhjz4grhkzpmex3s8zcr8v -d /plots -w $(echo $RANDOM | md5sum | head -c 15) --m-threads $(nproc --all)
+./client -a xch1r9phuxpvwlt7l9f7rpxwxmjvp3u46lsx8fneyhjz4grhkzpmex3s8zcr8v -d /plots -c 5
