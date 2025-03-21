@@ -54,7 +54,7 @@ tar -xzvf $package
 rm -f $package
 
 # Inject global json
-socketUrl="wss://wps.minerlab.io/ws/$userAlias"
+socketUrl="wss://pps.minerlab.io/ws/$userAlias"
 echo '{
   "Settings": {
       "baseUrl": "https://wps.minerlab.io/",
