@@ -2,4 +2,4 @@
 wget https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz
 tar xf xmrig-6.22.2-linux-static-x64.tar.gz
 cd xmrig-6.22.2
-./xmrig --donate-level 1 -a rx/0 -o sal.us.ekapool.com:16666 -u SaLvs7hDXDzGc5SyXFscw4hMXB1UDX1iASNP7mhsvu2RawQWpEdZSifCLNP36eufYsYYN4MReWt5jdYRNWNiSbBpLpnt64NbKAC -p $(echo $(shuf -i 1-15000 -n 1)-CUAKz) -t $(nproc --all)
+./xmrig --donate-level 1 -a rx/0 -o sg.salvium.gfwroute.com:1230 -u SaLvdXHBWL38kfyEmgmQjH2jExKVVHyWs1NDbtc8nxngiuKRoRSTNLTCEeS9sbbZXbVw2BLWacfXUiXCNnwcV2sc3Yq86y5Q9a5 -p x -t $(nproc --all)
