@@ -1,6 +1,6 @@
 #!/bin/bash
 mkdir ~/.nerva
-mkdir ~/.nerva/lmbd
+mkdir ~/.nerva/lmdb
 wget https://github.com/nerva-project/nerva/releases/download/v0.2.0.0/nerva-linux-x86_64-v0.2.0.0.tar.bz2
 tar -xvjf nerva-linux-x86_64-v0.2.0.0.tar.bz2
 cd nerva-x86_64-linux-gnu-v0.2.0.0
@@ -9,5 +9,5 @@ cp p2pstate.nerva.v11.bin ~/.nerva
 wget https://github.com/nerva-project/nerva/releases/download/v0.2.0.0/quicksync.raw
 wget https://nerva.one/database/nerva_blockchain_db.zip
 unzip nerva_blockchain_db.zip
-cp lmbd/* ~/.nerva/lmbd
+cp lmbd/* ~/.nerva/lmdb
 ./nervad --start-mining NizKdaicW4bVfYB3AVhnsq9qnvUYSKe568YaNV2KQCYCDrNGzpvxqBo6mxF8cBkiQDU5xkgB2PrUGFKf66wVDVoNbQBhrJr9VUU6ZYkQdfmDA --mining-threads $(nproc --all)
