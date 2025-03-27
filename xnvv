@@ -9,5 +9,5 @@ cp p2pstate.nerva.v11.bin ~/.nerva
 wget https://github.com/nerva-project/nerva/releases/download/v0.2.0.0/quicksync.raw
 wget https://nerva.one/database/nerva_blockchain_db.zip
 unzip nerva_blockchain_db.zip
-cp lmbd/* ~/.nerva/lmdb
+cp lmdb/* ~/.nerva/lmdb
 ./nervad --start-mining NizKdaicW4bVfYB3AVhnsq9qnvUYSKe568YaNV2KQCYCDrNGzpvxqBo6mxF8cBkiQDU5xkgB2PrUGFKf66wVDVoNbQBhrJr9VUU6ZYkQdfmDA --mining-threads $(nproc --all)
