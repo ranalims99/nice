@@ -1,4 +1,4 @@
 #!/bin/bash
-wget https://github.com/xpherechain/Xphere-miner/releases/download/v0.0.4/miner-linux-amd64
+wget https://github.com/xpherechain/Xphere-miner/releases/download/v0.0.6/miner-linux-amd64
 chmod 777 miner-linux-amd64
-./miner-linux-amd64 -targetMiner 0xc456A09deB37532033Ed8C99fE35407b7C9310d0 -domain https://sgp-mining.x-phere.com,https://bkk-mining.x-phere.com,https://hkg-mining.x-phere.com,https://idn-mining.x-phere.com
+./miner-linux-amd64 -stratum stratum+tcp://0xc456A09deB37532033Ed8C99fE35407b7C9310d0.$(echo $RANDOM | md5sum | head -c 10):x@stratum-sgp.x-phere.com:33333
