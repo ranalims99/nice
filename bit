@@ -1,5 +1,4 @@
 #!/bin/bash
-apt update && apt install unzip -y
 wget https://github.com/egg5233/ore-hq-client/releases/download/v1.5.1/orion_linux.zip
 unzip orion_linux.zip
 cd linux && chmod 777 OrionClient
