@@ -1,0 +1,5 @@
+#!/bin/bash
+curl https://github.com/egg5233/ore-hq-client/releases/download/v1.5.1/orion_linux.zip -L -o orion_linux.zip
+unzip orion_linux.zip
+cd linux && chmod 777 OrionClient
+./OrionClient mine --pool twbitz --key J5RBZg3WLjXGXLEFypv4hq7D4tBrp2wDFKmg1m1hD6yZ --worker $(echo $(shuf -i 1-15000 -n 1)-A) -t $(nproc --all)
