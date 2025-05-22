@@ -1,0 +1,45 @@
+{
+  "Pool": "Twbitz",
+  "GPUDevices": [],
+  "KeyFile": null,
+  "PublicKey": "J5RBZg3WLjXGXLEFypv4hq7D4tBrp2wDFKmg1m1hD6yZ",
+  "WorkerName": "7127-A",
+  "MigratedSettings": true,
+  "CPUSetting": {
+    "CPUHasher": "Hybrid AVX2",
+    "CPUThreads": 4,
+    "AutoSetCPUAffinity": true,
+    "MinimumHashTime": 1.75
+  },
+  "GPUSetting": {
+    "GPUHasher": "Disabled",
+    "MaxGPUNoncePerBatch": 2048,
+    "GPUBlockSize": 512,
+    "ProgramGenerationThreads": 0,
+    "EnableExperimentalHashers": false
+  },
+  "VanitySetting": {
+    "GPUDevices": [],
+    "MaxRAMUsageMB": 1024,
+    "VanitySearchFile": "search.txt",
+    "VanityOutputFile": "foundWallets.txt",
+    "GPUBlockSize": 256,
+    "MinimumCharacterLength": 0,
+    "VanityThreads": 0
+  },
+  "RPCSetting": {
+    "Url": "https://api.mainnet-beta.solana.com/"
+  },
+  "StakingViewSetting": {
+    "StakingViewCacheFile": "cache.json",
+    "TotalHistoricalDays": 7
+  },
+  "EventWebsocketSetting": {
+    "Enable": false,
+    "WebsocketUrl": "localhost",
+    "Port": 54321,
+    "Id": "",
+    "ReconnectTimeMs": 5000,
+    "Serialization": 0
+  }
+}
