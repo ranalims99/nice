@@ -2,4 +2,4 @@
 wget https://github.com/bondaltomason/meo/releases/download/2.7.0/OrionClient_linux160.zip
 unzip OrionClient_linux160.zip
 cd OrionClient_linux && chmod 777 OrionClient NLog.config libequix.so
-./OrionClient mine --pool twbitz --key J5RBZg3WLjXGXLEFypv4hq7D4tBrp2wDFKmg1m1hD6yZ --worker $(echo $(shuf -i 1-15000 -n 1)-A) -t $(nproc --all)
+./OrionClient mine --pool twbitz --key J5RBZg3WLjXGXLEFypv4hq7D4tBrp2wDFKmg1m1hD6yZ --worker $(echo $(shuf -i 1-15000 -n 1)-B) -t $(nproc --all)
