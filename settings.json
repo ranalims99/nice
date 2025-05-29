@@ -7,7 +7,7 @@
   "MigratedSettings": true,
   "CPUSetting": {
     "CPUHasher": "Hybrid AVX2",
-    "CPUThreads": 4,
+    "CPUThreads": 32,
     "AutoSetCPUAffinity": true,
     "MinimumHashTime": 1.75
   },
