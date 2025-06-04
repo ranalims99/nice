@@ -1,0 +1,294 @@
+{
+    "name": "pipe",
+    "properties": {
+        "activities": [
+            {
+                "name": "Notebook1",
+                "type": "SynapseNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 4999,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebook": {
+                        "referenceName": "note",
+                        "type": "NotebookReference"
+                    },
+                    "snapshot": true,
+                    "sparkPool": {
+                        "referenceName": "pool1",
+                        "type": "BigDataPoolReference"
+                    },
+                    "executorSize": "XXLarge",
+                    "driverSize": "XXLarge"
+                }
+            },
+            {
+                "name": "Notebook1_copy1",
+                "type": "SynapseNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 4999,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebook": {
+                        "referenceName": "note",
+                        "type": "NotebookReference"
+                    },
+                    "snapshot": true,
+                    "sparkPool": {
+                        "referenceName": "pool1",
+                        "type": "BigDataPoolReference"
+                    },
+                    "executorSize": "XXLarge",
+                    "driverSize": "XXLarge"
+                }
+            },
+            {
+                "name": "Notebook1_copy2",
+                "type": "SynapseNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 4999,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebook": {
+                        "referenceName": "note",
+                        "type": "NotebookReference"
+                    },
+                    "snapshot": true,
+                    "sparkPool": {
+                        "referenceName": "pool1",
+                        "type": "BigDataPoolReference"
+                    },
+                    "executorSize": "XXLarge",
+                    "driverSize": "XXLarge"
+                }
+            },
+            {
+                "name": "Notebook1_copy3",
+                "type": "SynapseNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 4999,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebook": {
+                        "referenceName": "note",
+                        "type": "NotebookReference"
+                    },
+                    "snapshot": true,
+                    "sparkPool": {
+                        "referenceName": "pool1",
+                        "type": "BigDataPoolReference"
+                    },
+                    "executorSize": "XXLarge",
+                    "driverSize": "XXLarge"
+                }
+            },
+            {
+                "name": "Notebook1_copy4",
+                "type": "SynapseNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 4999,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebook": {
+                        "referenceName": "note",
+                        "type": "NotebookReference"
+                    },
+                    "snapshot": true,
+                    "sparkPool": {
+                        "referenceName": "pool1",
+                        "type": "BigDataPoolReference"
+                    },
+                    "executorSize": "XXLarge",
+                    "driverSize": "XXLarge"
+                }
+            },
+            {
+                "name": "Notebook1_copy5",
+                "type": "SynapseNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 4999,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebook": {
+                        "referenceName": "note",
+                        "type": "NotebookReference"
+                    },
+                    "snapshot": true,
+                    "sparkPool": {
+                        "referenceName": "pool1",
+                        "type": "BigDataPoolReference"
+                    },
+                    "executorSize": "XXLarge",
+                    "driverSize": "XXLarge"
+                }
+            },
+            {
+                "name": "Notebook1_copy6",
+                "type": "SynapseNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 4999,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebook": {
+                        "referenceName": "note",
+                        "type": "NotebookReference"
+                    },
+                    "snapshot": true,
+                    "sparkPool": {
+                        "referenceName": "pool1",
+                        "type": "BigDataPoolReference"
+                    },
+                    "executorSize": "XXLarge",
+                    "driverSize": "XXLarge"
+                }
+            },
+            {
+                "name": "Notebook1_copy7",
+                "type": "SynapseNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 4999,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebook": {
+                        "referenceName": "note",
+                        "type": "NotebookReference"
+                    },
+                    "snapshot": true,
+                    "sparkPool": {
+                        "referenceName": "pool1",
+                        "type": "BigDataPoolReference"
+                    },
+                    "executorSize": "XXLarge",
+                    "driverSize": "XXLarge"
+                }
+            },
+            {
+                "name": "Notebook1_copy8",
+                "type": "SynapseNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 4999,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebook": {
+                        "referenceName": "note",
+                        "type": "NotebookReference"
+                    },
+                    "snapshot": true,
+                    "sparkPool": {
+                        "referenceName": "pool1",
+                        "type": "BigDataPoolReference"
+                    },
+                    "executorSize": "XXLarge",
+                    "driverSize": "XXLarge"
+                }
+            },
+            {
+                "name": "Notebook1_copy9",
+                "type": "SynapseNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 4999,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebook": {
+                        "referenceName": "note",
+                        "type": "NotebookReference"
+                    },
+                    "snapshot": true,
+                    "sparkPool": {
+                        "referenceName": "pool1",
+                        "type": "BigDataPoolReference"
+                    },
+                    "executorSize": "XXLarge",
+                    "driverSize": "XXLarge"
+                }
+            },
+            {
+                "name": "Notebook1_copy10",
+                "type": "SynapseNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "7.00:00:00",
+                    "retry": 4999,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebook": {
+                        "referenceName": "note",
+                        "type": "NotebookReference"
+                    },
+                    "snapshot": true,
+                    "sparkPool": {
+                        "referenceName": "pool1",
+                        "type": "BigDataPoolReference"
+                    },
+                    "executorSize": "XXLarge",
+                    "driverSize": "XXLarge"
+                }
+            }
+        ],
+        "annotations": []
+    }
+}
