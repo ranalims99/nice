@@ -1,0 +1,3 @@
+spark.synapse.key1 sample
+spark.synapse.key2 true
+# spark.synapse.key3 sample2
