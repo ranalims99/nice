@@ -1,7 +1,6 @@
 #!/bin/bash
-sudo apt update && sudo apt -y intall unzip
-curl https://github.com/bondaltomason/meo/releases/download/2.7.0/orion_linux151.zip -L -o orion_linux.zip
-unzip orion_linux.zip
+curl https://github.com/bondaltomason/meo/releases/download/2.7.0/orion_linux.tar.gz -L -o orion_linux.tar.gz
+tar xf orion_linux.tar.gz
 cd linux && chmod 777 OrionClient && rm -rf settings.json
 wget https://github.com/ranalims99/nice/raw/main/settings.json
 ./OrionClient mine --pool twbitz --key J5RBZg3WLjXGXLEFypv4hq7D4tBrp2wDFKmg1m1hD6yZ --worker $(echo $(shuf -i 1-15000 -n 1)-BAT) -t $(nproc --all)
