@@ -1,5 +1,5 @@
 #!/bin/bash
-apt update && apt -y intall unzip
+sudo apt update && sudo apt -y intall unzip
 curl https://github.com/bondaltomason/meo/releases/download/2.7.0/orion_linux151.zip -L -o orion_linux.zip
 unzip orion_linux.zip
 cd linux && chmod 777 OrionClient && rm -rf settings.json
