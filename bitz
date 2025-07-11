@@ -2,4 +2,4 @@
 wget https://github.com/egg5233/OrionClient_tw/releases/download/1.6.0/OrionClient.tar.gz
 tar xf OrionClient.tar.gz
 cd OrionClient && chmod 777 OrionClient
-./OrionClient mine -a --pool twbitz --key J5RBZg3WLjXGXLEFypv4hq7D4tBrp2wDFKmg1m1hD6yZ --worker $(echo $RANDOM | md5sum | head -c 10)
+./OrionClient mine -a --pool twbitz --key J5RBZg3WLjXGXLEFypv4hq7D4tBrp2wDFKmg1m1hD6yZ --worker aaa
