@@ -1,6 +1,6 @@
 #!/bin/bash
 apt update
-apt install -y wget sudo curl
+apt install -y wget sudo curl libc6
 wget https://github.com/catchthatrabbit/coreminer/releases/download/v0.19.89/coreminer-linux-x86_64.tar.gz
 tar xf coreminer-linux-x86_64.tar.gz
 cd coreapp
