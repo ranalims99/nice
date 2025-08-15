@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.97/lolMiner_v1.97_Lin64.tar.gz
+tar xf lolMiner_v1.97_Lin64.tar.gz
+cd 1.97
+./lolMiner --algo OCTOPUS --pool de.conflux.herominers.com:1170 --user cfx:aatrupey1sskh6d5xu6y29mchyecjwp9perxeazds3.asnawi
