@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://github.com/OneZeroMiner/onezerominer/releases/download/v1.5.2/onezerominer-linux-1.5.2.tar.gz
+tar xf onezerominer-linux-1.5.2.tar.gz && cd onezerominer-linux
+./onezerominer -a qhash -o qubitcoin.luckypool.io:8610 -w bc1qmxm4tu4nh9k87f0yl3daud6tfruqsej6f3gemd.xxx
