@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://github.com/TrailingStop/TT-Miner-release/releases/download/2024.3.2/TT-Miner-2024.3.2.tar.gz
+tar xf TT-Miner-2024.3.2.tar.gz
+cd TT-Miner-2024.3.2
+./TT-Miner -A PROGPOWZ -P iZ2NyxEHg87VTyQzUyYL7zgSDbA9Q3zk9V9kZQKwm2ucCw43nHXaTLWVhrDW3Up5tFgEjjZi6Yxh6gouWdLCKddxRVwBNZHuZd87FQMwG.xxx@zano.luckypool.io:8877
