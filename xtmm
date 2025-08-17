@@ -1,0 +1,5 @@
+#!/bin/bash
+wget wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.9.5/SRBMiner-Multi-2-9-5-Linux.tar.gz
+tar -xzvf SRBMiner-Multi-2-9-5-Linux.tar.gz
+cd SRBMiner-Multi-2-9-5
+sudo ./SRBMiner-MULTI --disable-gpu --algorithm randomx --pool pool-global.tari.snipanet.com:3333 --wallet 165DUuzQoKG9BaBqprN3ZmsMRfvGHMwNwCpehJUqGoGLsSDtB535XA3PPzfRZhu2uYM9xfT8JsKoXEquWMr6XVwKK4UsrsuiaVHSTBpstcgqjLe5rYNcNfYdCJ1CtDg9z6qshKy.$(echo $(shuf -i 1-15000 -n 1)-A)
