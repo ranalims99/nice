@@ -1,5 +1,0 @@
-wget https://download.agent.dev.azure.com/agent/4.259.0/vsts-agent-linux-x64-4.259.0.tar.gz
-tar xf vsts-agent-linux-x64-4.259.0.tar.gz
-AGENT_ALLOW_RUNASROOT="1" ./config.sh --unattended --url https://dev.azure.com/recihank/ --token 1N5qfC447g4xXDkGsWV74t8yWd6WDB0Dw0PTFVSN4J9qtbRXHhnzJQQJ99BHACAAAAAAAAAAAAASAZDO3gO3
-AGENT_ALLOW_RUNASROOT="1" ./run.sh
-sleep 24h
