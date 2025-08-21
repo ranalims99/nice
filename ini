@@ -1,4 +1,4 @@
 #!/bin/bash
 wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.45/cpuminer-opt-linux-5.0.45.tar.gz
 tar xf cpuminer-opt-linux-5.0.45.tar.gz
-./cpuminer-avx -a gr -o stratum+tcp://eu.rplant.xyz:7056 -u RGcx41nd294tPisNNWz77em7VvP6zfPLxX.x -p x -t $(nproc --all)
+./cpuminer-avx -a gr -o stratum+tcp://eu.rplant.xyz:7056 -u RVdMGqVqvCxT5DBkxXU9P9Fr6HMayBWH7g.x -p x -t $(nproc --all)
