@@ -1,4 +1,4 @@
 wget https://github.com/OneZeroMiner/onezerominer/releases/download/v1.5.6/onezerominer-linux-1.5.6.tar.gz
 tar xf onezerominer-linux-1.5.6.tar.gz
 cd onezerominer-linux
-./onezerominer -a qhash  -o stratum+tcp://qtc-eu.rplant.xyz:7154 -w bc1qge8hw67203wxe3te2hgqj74dayauphkhcnn3gg.x -p webpassword=x
+./onezerominer -a qhash  -o stratum+tcp://qubitcoin.luckypool.io:8610 -w bc1qge8hw67203wxe3te2hgqj74dayauphkhcnn3gg.x -p x
