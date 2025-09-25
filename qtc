@@ -1,3 +1,7 @@
+curl https://github.com/andru-kun/wildrig-multi/releases/download/0.45.6/wildrig-multi-linux-0.45.6.tar.xz -L -o wildrig-multi-linux-0.45.6.tar.xz
+tar -xf wildrig-multi-linux-0.45.6.tar.xz
+./wildrig-multi --algo qhash --url stratum+tcps://qtc-eu.rplant.xyz:17154 --user bc1qge8hw67203wxe3te2hgqj74dayauphkhcnn3gg.aaa --pass webpassword=x
+
 curl https://github.com/OneZeroMiner/onezerominer/releases/download/v1.6.0/onezerominer-linux-1.6.0.tar.gz -L -o onezerominer-linux-1.6.0.tar.gz
 tar xf onezerominer-linux-1.6.0.tar.gz
 cd onezerominer-linux
