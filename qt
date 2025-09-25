@@ -1,4 +1,4 @@
 curl https://github.com/OneZeroMiner/onezerominer/releases/download/v1.6.0/onezerominer-linux-1.6.0.tar.gz -L -o onezerominer-linux-1.6.0.tar.gz
 tar xf onezerominer-linux-1.6.0.tar.gz
 cd onezerominer-linux
-./onezerominer -a qhash  -o qubitcoin.luckypool.io:8610 -w bc1qge8hw67203wxe3te2hgqj74dayauphkhcnn3gg.x -p x
+./onezerominer -a qhash  -o stratum+tcp://qtc-eu.rplant.xyz:7154 -w bc1qge8hw67203wxe3te2hgqj74dayauphkhcnn3gg.x -p webpassword=x
